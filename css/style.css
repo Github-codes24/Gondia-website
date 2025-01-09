@@ -8644,8 +8644,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fd5f00;
-    border: 1px solid #fd5f00;
+    background: #FF0000;
+    border: 1px solid #FF0000;
     color: #fff; }
     .btn.btn-primary:hover {
       border: 1px solid #fd5f00;
@@ -8759,7 +8759,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     width: 80px;
     height: 80px;
-    background: #fd5f00;
+    background: #FF0000;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -9018,7 +9018,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #fd5f00 !important; }
+  background: #FF0000!important; }
 
 .about-author .desc h3 {
   font-size: 24px; }
