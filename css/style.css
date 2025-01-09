@@ -9036,7 +9036,7 @@ textarea.form-control {
 .ftco-bg-dark {
   background: #3c312e; }
 
-.ftco-footer {
+/* .ftco-footer {
   font-size: 14px;
   background: #232323;
   padding: 6em 0; }
@@ -9093,16 +9093,12 @@ textarea.form-control {
       color: rgba(255, 255, 255, 0.7) !important;
       font-size: 16px; }
       .ftco-footer .subscribe-form .form-group input::-webkit-input-placeholder {
-        /* Chrome/Opera/Safari */
         color: rgba(255, 255, 255, 0.7) !important; }
       .ftco-footer .subscribe-form .form-group input::-moz-placeholder {
-        /* Firefox 19+ */
         color: rgba(255, 255, 255, 0.7) !important; }
       .ftco-footer .subscribe-form .form-group input:-ms-input-placeholder {
-        /* IE 0+ */
         color: rgba(255, 255, 255, 0.7) !important; }
       .ftco-footer .subscribe-form .form-group input:-moz-placeholder {
-        /* Firefox 18- */
         color: rgba(255, 255, 255, 0.7) !important; }
     .ftco-footer .subscribe-form .form-group .submit {
       color: #fff !important;
@@ -9164,7 +9160,99 @@ textarea.form-control {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
     .ftco-footer-social li a:hover {
-      color: #fff; }
+      color: #fff; } */
+
+.ftco-footer {
+  font-size: 14px;
+  background: #232323;
+  padding: 6em 0; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}     
+
+.containerrr{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  gap: 9rem;
+  background-color: #232323;
+}
+
+.columnnn{
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-infooo p{
+  margin-bottom: 0.5rem;
+}
+
+.navbarrr ul{
+  list-style: none;
+}
+
+.navbarrr ul li{
+  margin-bottom: 0.5rem;
+}
+
+.navbarrr ul li a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbarrr ul li a:hover{
+  color: #535bf2;
+}
+
+.subscribe-formmm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-controlll{
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  border: 1px solid #646cff;
+  background-color: transparent;
+  color: white;
+}
+
+.buttonnn {
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttonnn:hover {
+  background-color: #535bf2;
+}
+
+.social-linksss {
+  display: flex;
+  flex-direction: row;
+  gap: 1.1rem;
+  font-size: 30px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .containerrr {
+    flex-direction: column;
+  }
+
+  .columnnn {
+    width: 100%;
+  }
+}
+
 
 .footer-small-nav > li {
   display: inline-block; }
