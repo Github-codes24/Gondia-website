@@ -9036,132 +9036,7 @@ textarea.form-control {
 .ftco-bg-dark {
   background: #3c312e; }
 
-/* .ftco-footer {
-  font-size: 14px;
-  background: #232323;
-  padding: 6em 0; }
-  .ftco-footer .ftco-footer-widget {
-    width: 100%;
-    display: block; }
-    .ftco-footer .ftco-footer-widget h2 {
-      font-weight: normal;
-      color: #fff;
-      margin-bottom: 40px;
-      font-size: 22px;
-      font-weight: 500; }
-    .ftco-footer .ftco-footer-widget .logo {
-      color: #fd5f00; }
-      .ftco-footer .ftco-footer-widget .logo span {
-        color: #fda638; }
-    .ftco-footer .ftco-footer-widget ul li a span {
-      color: #fff; }
-    .ftco-footer .ftco-footer-widget .btn-primary {
-      background: #fff !important;
-      border: 2px solid #fff !important; }
-      .ftco-footer .ftco-footer-widget .btn-primary:hover {
-        background: #fff;
-        border: 2px solid #fff !important; }
-  .ftco-footer p {
-    color: rgba(255, 255, 255, 0.7); }
-  .ftco-footer a {
-    color: rgba(255, 255, 255, 0.7); }
-    .ftco-footer a:hover {
-      color: #fff; }
-  .ftco-footer .ftco-heading-2 {
-    font-size: 17px;
-    font-weight: 400;
-    color: #000000; }
-  .ftco-footer .categories li {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-    .ftco-footer .categories li a span {
-      color: rgba(255, 255, 255, 0.5) !important; }
-  .ftco-footer .subscribe-form .form-group {
-    position: relative;
-    margin-bottom: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    border-radius: 0; }
-    .ftco-footer .subscribe-form .form-group input {
-      -webkit-border-radius: 2px;
-      -moz-border-radius: 2px;
-      -ms-border-radius: 2px;
-      border-radius: 2px;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.1) !important;
-      border: none;
-      color: rgba(255, 255, 255, 0.7) !important;
-      font-size: 16px; }
-      .ftco-footer .subscribe-form .form-group input::-webkit-input-placeholder {
-        color: rgba(255, 255, 255, 0.7) !important; }
-      .ftco-footer .subscribe-form .form-group input::-moz-placeholder {
-        color: rgba(255, 255, 255, 0.7) !important; }
-      .ftco-footer .subscribe-form .form-group input:-ms-input-placeholder {
-        color: rgba(255, 255, 255, 0.7) !important; }
-      .ftco-footer .subscribe-form .form-group input:-moz-placeholder {
-        color: rgba(255, 255, 255, 0.7) !important; }
-    .ftco-footer .subscribe-form .form-group .submit {
-      color: #fff !important;
-      font-size: 16px;
-      background: #5d50c6 !important;
-      border: none !important;
-      -webkit-border-radius: 2px;
-      -moz-border-radius: 2px;
-      -ms-border-radius: 2px;
-      border-radius: 2px;
-      -moz-transition: all 0.3s ease;
-      -o-transition: all 0.3s ease;
-      -webkit-transition: all 0.3s ease;
-      -ms-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
-      .ftco-footer .subscribe-form .form-group .submit:hover {
-        cursor: pointer;
-        background: #fd5f00 !important; }
-  .ftco-footer .subscribe-form .icon {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    color: rgba(255, 255, 255, 0.8); }
-  .ftco-footer .block-21 .text .heading {
-    font-weight: 400;
-    font-size: 16px; }
-    .ftco-footer .block-21 .text .heading a {
-      color: rgba(255, 255, 255, 0.9); }
-      .ftco-footer .block-21 .text .heading a:hover, .ftco-footer .block-21 .text .heading a:active, .ftco-footer .block-21 .text .heading a:focus {
-        color: #fd5f00; }
-  .ftco-footer .block-21 .text .meta > div {
-    display: inline-block;
-    font-size: 12px;
-    margin-right: 5px; }
-    .ftco-footer .block-21 .text .meta > div a {
-      color: gray; }
-
-.ftco-footer-social li {
-  list-style: none;
-  margin: 0 10px 0 0;
-  display: inline-block; }
-  .ftco-footer-social li a {
-    height: 40px;
-    width: 40px;
-    display: block;
-    float: left;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 50%;
-    position: relative; }
-    .ftco-footer-social li a span {
-      position: absolute;
-      font-size: 20px;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); }
-    .ftco-footer-social li a:hover {
-      color: #fff; } */
-
+/* Footer section start */
 .ftco-footer {
   font-size: 14px;
   background: #232323;
@@ -9169,7 +9044,6 @@ textarea.form-control {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }     
 
 .containerrr{
@@ -9252,6 +9126,93 @@ textarea.form-control {
     width: 100%;
   }
 }
+/* Footer section end */
+
+/* Staff Section Start */
+.staff-sectionnn {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.principal-rowww {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.professors-rowww {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.staff-carddd {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.2s;
+}
+
+.staff-carddd:hover {
+  transform: translateY(-5px);
+}
+
+.staff-carddd.principal {
+  width: 300px;
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+}
+
+
+
+.staff-sectionnn h2, h3 {
+  margin: 0.5rem 0;
+  color: #1a1a1a;
+}
+
+.designationnn {
+  color: #0066cc;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.qualificationnn {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 1200px) {
+  .professors-rowww {
+    gap: 1.5rem;
+  }
+  
+  .staff-carddd {
+    width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .staff-carddd {
+    width: calc(50% - 2rem);
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .staff-carddd {
+    width: 100%;
+  }
+  
+  .staff-carddd.principal {
+    width: 100%;
+  }
+}
+/* Staff Section End */
 
 
 .footer-small-nav > li {
@@ -9955,3 +9916,76 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Form section start */
+.contact-formmm {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-formmm h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form-grouppp {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.submit-btnnn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btnnn:hover {
+  background-color: #357abd;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .formmmm {
+    padding: 10px;
+  }
+  
+  .contact-formmm {
+    padding: 20px;
+  }
+  
+  input,
+  textarea,
+  .submit-btnnn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
