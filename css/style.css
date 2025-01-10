@@ -9162,6 +9162,7 @@ textarea.form-control {
     .ftco-footer-social li a:hover {
       color: #fff; } */
 
+      /* Footer section start */
 .ftco-footer {
   font-size: 14px;
   background: #232323;
@@ -9169,7 +9170,6 @@ textarea.form-control {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }     
 
 .containerrr{
@@ -9252,6 +9252,97 @@ textarea.form-control {
     width: 100%;
   }
 }
+
+/* Footer section end */
+
+/* Staff Section Start */
+
+.staff-sectionnn {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.principal-rowww {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.professors-rowww {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.staff-carddd {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.2s;
+}
+
+.staff-carddd:hover {
+  transform: translateY(-5px);
+}
+
+.staff-carddd.principal {
+  width: 300px;
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+}
+
+
+
+.staff-sectionnn h2, h3 {
+  margin: 0.5rem 0;
+  color: #1a1a1a;
+}
+
+.designationnn {
+  color: #0066cc;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.qualificationnn {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 1200px) {
+  .professors-rowww {
+    gap: 1.5rem;
+  }
+  
+  .staff-carddd {
+    width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .staff-carddd {
+    width: calc(50% - 2rem);
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .staff-carddd {
+    width: 100%;
+  }
+  
+  .staff-carddd.principal {
+    width: 100%;
+  }
+}
+
+
+/* Staff Section End */
 
 
 .footer-small-nav > li {
