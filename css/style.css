@@ -5349,7 +5349,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #007bff !important; }
+  background-color: orangered !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -8151,10 +8151,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #646cff;}
+  color: orangered;}
   a:hover, a:focus {
     text-decoration: none;
-    color: #32CD32;
+    color: #646cff !important;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -8405,7 +8405,9 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  position: relative; }
+  position: relative;
+  background: linear-gradient(45deg, #0d1128 0% #0065fd 100%), url(/images/top-background1.jpeg);
+}
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
@@ -8612,10 +8614,10 @@ h1, h2, h3, h4, h5,
   background: #fafafa !important; }
 
 .bg-darken {
-  background: #00cc00 !important; }
+  background: #FF8C00 !important; }
 
 .bg-white {
-  background: #fff !important; }
+  background: #FF8C00 !important; }
 
 .bg-primary {
   background: #fd5f00; }
@@ -8646,9 +8648,9 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #007bff;
-    border: 1px solid #007bff;
-    color: #fff; }
+    background: orangered;
+    border: 1px solid orangered;
+    color: #fff;}
     .btn.btn-primary:hover {
       border: 1px solid #fd5f00;
       background: transparent;
@@ -8761,7 +8763,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     width: 80px;
     height: 80px;
-    background: #007bff;
+    background: orangered;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -9097,7 +9099,7 @@ textarea.form-control {
 .form-controlll{
   padding: 0.6em 1.2em;
   border-radius: 8px;
-  border: 1px solid #646cff;
+  border: 1px solid orangered;
   background-color: transparent;
   color: white;
 }
@@ -9106,14 +9108,15 @@ textarea.form-control {
   padding: 0.6em 1.2em;
   border-radius: 8px;
   border: 1px solid transparent;
-  background-color: #646cff;
+  background-color: orangered;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .buttonnn:hover {
-  background-color: #32CD32;
+  background-color: #646cff;
+  /* background-color: #32CD32; */
 }
 
 .social-linksss {
@@ -9537,10 +9540,10 @@ blockquote {
     background: #0d1128;
     background: -moz-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, #0d1128), color-stop(100%, #fd6100));
-    background: -webkit-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    /* background: -webkit-linear-gradient(45deg, #0d1128 0%, #fd6100 100%); */
     background: -o-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
     background: -ms-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
-    background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    background: linear-gradient(45deg, #0d1128 0%, #28b463 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1128', endColorstr='#fd6100', GradientType=1 ); }
 
 .ftco-counter {
