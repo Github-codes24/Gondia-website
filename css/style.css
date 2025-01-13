@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -5796,6 +5796,8 @@ button.bg-dark:focus {
   -webkit-box-align: center !important;
   -ms-flex-align: center !important;
   align-items: center !important; }
+   
+
 
 .align-items-baseline {
   -webkit-box-align: baseline !important;
@@ -8149,10 +8151,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #fd5f00; }
+  color: #646cff;}
   a:hover, a:focus {
     text-decoration: none;
-    color: #fd5f00;
+    color: #32CD32;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -8504,10 +8506,10 @@ h1, h2, h3, h4, h5,
         background: #0d1128;
         background: -moz-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
         background: -webkit-gradient(left bottom, right top, color-stop(0%, #0d1128), color-stop(100%, #fd6100));
-        background: -webkit-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+        /* background: -webkit-linear-gradient(45deg, #0d1128 0%, #fd6100 100%); */
         background: -o-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
         background: -ms-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
-        background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+        /* background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%); */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1128', endColorstr='#fd6100', GradientType=1 );
         opacity: .5; }
       .owl-carousel.home-slider .slider-item .slider-text {
@@ -8610,7 +8612,7 @@ h1, h2, h3, h4, h5,
   background: #fafafa !important; }
 
 .bg-darken {
-  background: #0d1128 !important; }
+  background: #00cc00 !important; }
 
 .bg-white {
   background: #fff !important; }
@@ -8644,8 +8646,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #FF0000;
-    border: 1px solid #FF0000;
+    background: #007bff;
+    border: 1px solid #007bff;
     color: #fff; }
     .btn.btn-primary:hover {
       border: 1px solid #fd5f00;
@@ -8759,7 +8761,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     width: 80px;
     height: 80px;
-    background: #FF0000;
+    background: #007bff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -9017,8 +9019,13 @@ textarea.form-control {
   opacity: 0;
   visibility: hidden; }
 
+<<<<<<< HEAD
+/* .bg-primary {
+  background: #fd5f00 !important; } */
+=======
 .bg-primary {
   background: #FF0000!important; }
+>>>>>>> 48bdad800a63f802fc7a7db3219913e8c67748c1
 
 .about-author .desc h3 {
   font-size: 24px; }
@@ -9106,7 +9113,7 @@ textarea.form-control {
 }
 
 .buttonnn:hover {
-  background-color: #535bf2;
+  background-color: #32CD32;
 }
 
 .social-linksss {
@@ -9129,87 +9136,154 @@ textarea.form-control {
 /* Footer section end */
 
 /* Staff Section Start */
-.staff-sectionnn {
+.faculty-sectionnn {
   max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-.principal-rowww {
-  display: flex;
-  justify-content: center;
+.faculty-sectionnn h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.about-facultyyy {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   margin-bottom: 3rem;
 }
 
-.professors-rowww {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-}
-.staff-carddd {
-  background: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 250px;
-  transition: transform 0.2s;
+.about-facultyyy h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
 }
 
-.staff-carddd:hover {
+.about-facultyyy p {
+  color: #666;
+  line-height: 1.8;
+}
+
+.principal-sectionnn {
+  margin-bottom: 3rem;
+}
+
+.principal-carddd {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.principal-carddd:hover {
   transform: translateY(-5px);
 }
 
-.staff-carddd.principal {
-  width: 300px;
-  background: #f8f9fa;
-  border: 2px solid #e9ecef;
+.principal-carddd img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
 }
 
-
-
-.staff-sectionnn h2, h3 {
-  margin: 0.5rem 0;
-  color: #1a1a1a;
+.principal-carddd h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
 }
 
-.designationnn {
-  color: #0066cc;
-  font-weight: 500;
-  margin: 0.5rem 0;
-}
-
-.qualificationnn {
+.principal-carddd .title {
   color: #666;
-  font-size: 0.9rem;
-  margin: 0.5rem 0;
+  font-style: italic;
+  margin-bottom: 1rem;
 }
 
-@media (max-width: 1200px) {
-  .professors-rowww {
-    gap: 1.5rem;
-  }
-  
-  .staff-carddd {
-    width: 220px;
-  }
+blockquote {
+  font-style: italic;
+  color: #666;
+  border-left: 4px solid #3498db;
+  padding-left: 1rem;
+  margin: 1rem 0;
 }
 
+.professors-griddd {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.professor-carddd {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.professor-carddd:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.professor-carddd img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.professor-carddd h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.professor-carddd .title {
+  color: #666;
+  font-style: italic;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-  .staff-carddd {
-    width: calc(50% - 2rem);
-    min-width: 200px;
+  .faculty-sectionnn {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .professors-griddd {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .principal-carddd img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .professor-carddd img {
+    width: 120px;
+    height: 120px;
   }
 }
 
 @media (max-width: 480px) {
-  .staff-carddd {
-    width: 100%;
+  .about-facultyyy,
+  .principal-carddd,
+  .professor-carddd {
+    padding: 1rem;
   }
-  
-  .staff-carddd.principal {
-    width: 100%;
+
+  .professors-griddd {
+    grid-template-columns: 1fr;
   }
 }
 /* Staff Section End */
@@ -9989,3 +10063,4 @@ textarea:focus {
     padding: 10px;
   }
 }
+
